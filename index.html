@@ -10,20 +10,23 @@
 </body>
 <script>
 
-let loveBands = ["cold play", "linkin Park", "Arctic Monkeys", "Kraftwerk" ];
+
+let loveBands = ["cold","park","monkeys","werk"];
+
 let userBands = prompt("What is your favorite band?");
-let str = " NAN. THEY'RE PRETTY LAME."
 
+let str = " NAN. THEY'RE PRETTY LAME.";
 
-if(userBands.indexOf("cold play",0) === loveBands.indexOf("cold play",0)){
+if (loveBands.indexOf(userBands) !== -1 ){
     
     alert("YEAH I LOVE THEM!");
-    
-} else{
-   
-    alert(str.toLowerCase());
-   
 }
+else{
+
+    alert(str.toLowerCase());
+}
+
+
 
 
 
